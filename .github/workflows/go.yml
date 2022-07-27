@@ -21,4 +21,4 @@ jobs:
       #   run: go build -v ut/main.go
 
       - name: Test
-        run: go test -v ut/main_test.go
+        run: go test -v ./ut
