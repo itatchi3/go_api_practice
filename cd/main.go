@@ -24,7 +24,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	m := &Message{Message: "Hello, " + name + "!"}
+	m := &Message{Message: "Hello, " + name + "-san"}
 	var buf bytes.Buffer
 	enc := json.NewEncoder(&buf)
 	if err := enc.Encode(m); err != nil {
